@@ -1,0 +1,55 @@
+".source.praat":
+  "For Loop":
+    prefix: "for"
+    body: '''
+      
+      for ${1:i} from ${2:1 to 10}
+        ${0:}
+      endfor
+      
+    '''
+  Formulary:
+    prefix: "form"
+    body: '''
+      
+      form ${1:Title}
+        ${0:#Content...}
+      endform
+      
+    '''
+  "If Condition":
+    prefix: "if"
+    body: '''
+      
+      if ${1:}
+        ${0:}
+      endif
+      
+    '''
+  Procedure:
+    prefix: "procedure"
+    body: '''
+      
+      procedure ${1:procedureName}: ${2:argument_1}
+        ${0:}
+      endproc
+      
+    '''
+  "Repeat Loop":
+    prefix: "repeat"
+    body: '''
+      
+      repeat
+        ${2:}
+      until ${1:}
+      
+    '''
+  "While Loop":
+    prefix: "while"
+    body: '''
+      
+      while ${1:}
+        ${0:}
+      endwhile
+      
+    '''
