@@ -4,7 +4,7 @@
   "description": "PRAAT scripting language support in Atom.",
   "keywords": [
   ],
-  "repository": "https://github.com/synconlanger/language-praat.git",
+  "repository": "https://github.com/stefanocoretta/language-praat.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
