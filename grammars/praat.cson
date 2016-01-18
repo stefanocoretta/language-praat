@@ -13,8 +13,12 @@ undefined: "foldingStartMarker"
 "^\\s*(editor|for|if|form|procedure|proc|repeat|while)(?=\\s)": "foldingStopMarker"
 patterns: [
   {
-    match: "(^|\\s)(#|;)(.*)$"
-    name: "comment.line.number-sign.praat"
+    'begin': '#'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.comment.praat'
+    'end': '\\n'
+    'name': 'comment.line.number-sign.praat'
   }
   {
     begin: "\""
