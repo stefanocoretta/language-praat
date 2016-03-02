@@ -1,6 +1,6 @@
 {
   "name": "language-praat",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "PRAAT scripting language support in Atom.",
   "keywords": [],
   "repository": "https://github.com/stefanocoretta/language-praat.git",
