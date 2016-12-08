@@ -11,7 +11,7 @@ undefined: 'foldingStartMarker'
 '^\\s*(editor|for|if|form|procedure|proc|repeat|while)(?=\\s)': 'foldingStopMarker'
 patterns: [
   {
-    'begin': '^(<<\*>>=)\\s*$'
+    'begin': '^(<<([^>]+)>>=)\\s*$'
     'beginCaptures':
       '0':
         'name': 'constant.language.lterat'

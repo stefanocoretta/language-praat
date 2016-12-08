@@ -1,3 +1,6 @@
+## 1.2.1
+* fixed search term bug
+
 ## 1.2.0
 * Support for `noweb` syntax added
 
