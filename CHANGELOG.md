@@ -1,4 +1,4 @@
-## 1.0.0
+## 1.2.0
 * Support for `noweb` syntax added
 
 ## 0.1.0 - First Release
