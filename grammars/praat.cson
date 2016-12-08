@@ -1,16 +1,18 @@
+scopeName: 'source.praat'
 fileTypes: [
-  "praat"
-  "script"
-  "psc"
-  "praat_script"
-  "praatscript"
-  "praat-script"
-  "praat-batch"
-  "proc"
+  'praat'
+  'script'
+  'psc'
+  'praat_script'
+  'praatscript'
+  'praat-script'
+  'praat-batch'
+  'proc'
 ]
-name: "Praat"
-undefined: "foldingStartMarker"
-"^\\s*(editor|for|if|form|procedure|proc|repeat|while)(?=\\s)": "foldingStopMarker"
+name: 'Praat'
+
+undefined: 'foldingStartMarker'
+'^\\s*(editor|for|if|form|procedure|proc|repeat|while)(?=\\s)': 'foldingStopMarker'
 patterns: [
   {
     'begin': '#'
@@ -155,4 +157,3 @@ patterns: [
     name: "support.function.builtin.praat"
   }
 ]
-scopeName: "source.praat"
