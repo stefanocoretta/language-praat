@@ -1,17 +1,17 @@
-scopeName: 'source.praat.noweb'
+scopeName: 'source.praat.markdown'
 fileTypes: [
-  'praatnw'
-  'praat.nw'
-  'praat-nw'
-  'nw'
+  'praatmd'
+  'praat.md'
+  'praat-md'
+  'md'
 ]
-name: 'Praat (Noweb)'
+name: 'Praat (Markdown)'
 
 undefined: 'foldingStartMarker'
 '^\\s*(editor|for|if|form|procedure|proc|repeat|while)(?=\\s)': 'foldingStopMarker'
 patterns: [
   {
-    'begin': '^(<<([^>]+)>>=)\\s*$'
+    'begin': '^\\s*([`~]{3,}).*$'
     'beginCaptures':
       '0':
         'name': 'constant.language.lterat'
@@ -19,7 +19,7 @@ patterns: [
         'name': 'entity.name.type.literate'
       '2':
         'name': 'entity.name.section.literate'
-    'end': '^@\\s.*$'
+    'end': '^\\s*\\1\\s*$'
     'name': 'markup.code.praat.noweb'
     'contentName': 'source.praat'
     'patterns': [
@@ -27,6 +27,6 @@ patterns: [
     ]
   }
   {
-    'include': 'text.tex.latex'
+    'include': 'source.gfm'
   }
 ]
