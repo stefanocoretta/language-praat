@@ -1,12 +1,60 @@
 {
-  "name": "language-praat",
-  "version": "1.2.1",
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/9q/m_dpdv_x03l3wjvpw4q71ltc0000gn/T/d-116118-16087-1bgeyx1/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/9q/m_dpdv_x03l3wjvpw4q71ltc0000gn/T/d-116118-16087-1bgeyx1/package.tgz",
+        "spec": "/private/var/folders/9q/m_dpdv_x03l3wjvpw4q71ltc0000gn/T/d-116118-16087-1bgeyx1/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/9q/m_dpdv_x03l3wjvpw4q71ltc0000gn/T/apm-install-dir-116118-16087-1ieioas"
+    ]
+  ],
+  "_from": "../d-116118-16087-1bgeyx1/package.tgz",
+  "_id": "language-praat@1.2.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-praat",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/9q/m_dpdv_x03l3wjvpw4q71ltc0000gn/T/d-116118-16087-1bgeyx1/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/9q/m_dpdv_x03l3wjvpw4q71ltc0000gn/T/d-116118-16087-1bgeyx1/package.tgz",
+    "spec": "/private/var/folders/9q/m_dpdv_x03l3wjvpw4q71ltc0000gn/T/d-116118-16087-1bgeyx1/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116118-16087-1bgeyx1/package.tgz",
+  "_shasum": "9c7a7e59449f5954eb061c36bcce9fe8657742bd",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/9q/m_dpdv_x03l3wjvpw4q71ltc0000gn/T/d-116118-16087-1bgeyx1/package.tgz",
+  "_where": "/private/var/folders/9q/m_dpdv_x03l3wjvpw4q71ltc0000gn/T/apm-install-dir-116118-16087-1ieioas",
+  "bugs": {
+    "url": "https://github.com/stefanocoretta/language-praat/issues"
+  },
+  "dependencies": {},
   "description": "PRAAT scripting language support in Atom.",
-  "keywords": [],
-  "repository": "https://github.com/stefanocoretta/language-praat.git",
-  "license": "MIT",
+  "devDependencies": {},
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "homepage": "https://github.com/stefanocoretta/language-praat#readme",
+  "keywords": [],
+  "license": "MIT",
+  "name": "language-praat",
+  "optionalDependencies": {},
+  "readme": "# language-praat package\n\nThis package adds support for the PRAAT scripting language in Atom.\nBoth syntax highlighting and snippets are included.\nThe package also allows syntax highlighting in files with `noweb` syntax (text within the code chunk markes `<<*>>=` and `@` is highlighted according to PRAAT syntax, while text outside the code chunks is rendered as plain text).\n\n![Screenshot](https://github.com/stefanocoretta/language-praat/blob/master/praat-syntax.png?raw=true)\n\nThis package has bee converted to an Atom package from [praatSublimeSyntax](https://github.com/mauriciofigueroa/praatSublimeSyntax.git).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanocoretta/language-praat.git"
+  },
+  "version": "1.2.1"
 }
