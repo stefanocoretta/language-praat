@@ -3,7 +3,9 @@ fileTypes: [
   'praatmd'
   'praat.md'
   'praat-md'
-  'md'
+  'praam'
+  'prtmd'
+  'prt.md'
 ]
 name: 'Praat (Markdown)'
 
@@ -11,19 +13,17 @@ undefined: 'foldingStartMarker'
 '^\\s*(editor|for|if|form|procedure|proc|repeat|while)(?=\\s)': 'foldingStopMarker'
 patterns: [
   {
-    'begin': '^\\s*([`~]{3,}).*$'
+    'begin': '^\\s*([`~]{3,})\\s*(?i:(praat))\\s*$'
     'beginCaptures':
       '0':
-        'name': 'constant.language.lterat'
-      '1':
-        'name': 'entity.name.type.literate'
-      '2':
-        'name': 'entity.name.section.literate'
+        'name': 'support.gfm'
     'end': '^\\s*\\1\\s*$'
-    'name': 'markup.code.praat.noweb'
+    'name': 'markup.code.praat.markdown'
     'contentName': 'source.praat'
     'patterns': [
-      { 'include': 'source.praat' }
+      {
+        'include': 'source.praat'
+      }
     ]
   }
   {

@@ -3,7 +3,6 @@ fileTypes: [
   'praatnw'
   'praat.nw'
   'praat-nw'
-  'nw'
 ]
 name: 'Praat (Noweb)'
 
