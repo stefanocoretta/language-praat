@@ -1,5 +1,9 @@
 # Change log
 
+## [1.3.2] - 2016-12-31
+### Changed
+* fix bug of images not being rendered
+
 ## [1.3.1] - 2016-12-31
 ### Added
 * add some extensions to `fileTypes` for `praat (markdown).cson`
