@@ -2,7 +2,7 @@
 
 This package adds support for the PRAAT scripting language in Atom. Both syntax highlighting and snippets are included. [Literate programming](http://www.literateprogramming.com) is also possible, both using `noweb` and `markdown` syntax.
 
-![Screenshot](https://github.com/stefanocoretta/language-praat/blob/master/praat-syntax.png?raw=true)
+![praat-syntax](praat-syntax.png?raw=true)
 
 ## Praat (Noweb)
 
@@ -11,7 +11,9 @@ Text within chunk markers is highlighted according to PRAAT syntax, while text o
 
 ## Praat (GitHub Markdown)
 
-[GitHub Markdown](https://guides.github.com/features/mastering-markdown/) is also supported. Use the standard method for delimiting code chunks ````(```)````.
+[GitHub Markdown](https://guides.github.com/features/mastering-markdown/) is also supported. Use the standard method for delimiting code chunks ````(```praat)````.
+
+![praat-markdown](praat-markdown.png?raw=true)
 
 ## Acknowledgements
 
