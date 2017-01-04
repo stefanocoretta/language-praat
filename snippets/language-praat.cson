@@ -6,7 +6,7 @@
       \t${0:}
       endfor
     """
-  Formulary:
+  "Formulary":
     prefix: "form"
     body: """
       form ${1:Title}
@@ -20,7 +20,7 @@
       \t${0:}
       endif
     """
-  Procedure:
+  "Procedure":
     prefix: "procedure"
     body: """
       procedure ${1:procedureName}: ${2:argument_1}
