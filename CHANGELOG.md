@@ -1,5 +1,13 @@
 # Change log
 
+## [Unreleased] - 2017-01-04
+### Added
+* PRAAT code chunk snippet
+
+### Changed
+* snippets indentation from two spaces to `\t`
+* changed formatting in snippets to comply with Coffee syntax
+
 ## [1.3.2] - 2016-12-31
 ### Changed
 * fix bug of images not being rendered
@@ -31,6 +39,7 @@
 * Every feature added
 * Every bug fixed
 
+[Unreleased]: https://github.com/stefanocoretta/language-praat/compare/v1.3.2...HEAD
 [1.3.2]: https://github.com/stefanocoretta/language-praat/compare/v1.3.2...v1.3.1
 [1.3.1]: https://github.com/stefanocoretta/language-praat/compare/v1.3.1...v1.3.0
 [1.3.0]: https://github.com/stefanocoretta/language-praat/compare/v1.3.0...v1.2.1
