@@ -1,3 +1,7 @@
 '.source.praat':
   'editor':
+    'autoIndentOnPaste': true
     'commentStart': '; '
+    # TODO(Tomasito) Add indent patterns for non-closing indentation blocks like 'optionmenu' or 'choice'
+    'increaseIndentPattern': '^\\s*(procedure|if|else|elsif|for|while|repeat|form|editor)'
+    'decreaseIndentPattern': '^\\s*(endproc|endif|endfor|endwhile|until|endform|endeditor)'
