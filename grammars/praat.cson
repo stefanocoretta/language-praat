@@ -15,7 +15,7 @@ undefined: 'foldingStartMarker'
 '^\\s*(editor|for|if|form|procedure|proc|repeat|while)(?=\\s)': 'foldingStopMarker'
 patterns: [
   {
-    'begin': '#'
+    'begin': '(#|;)'
     'beginCaptures':
       '0':
         'name': 'punctuation.definition.comment.praat'
@@ -78,7 +78,7 @@ patterns: [
             captures:
               "1":
                 name: "variable.parameter.function.praat"
-            match: "\\b([a-z][a-zA-Z0-9_\\$]*)\\s*((?=,)|(?=$)|(?=\\)))"
+            match: "\\b([a-z][.a-zA-Z0-9_]*\\$?)\\s*((?:,)|(?=[\\n\\)]))"
           }
         ]
       }
