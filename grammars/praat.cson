@@ -15,7 +15,7 @@ undefined: 'foldingStartMarker'
 '^\\s*(editor|for|if|form|procedure|proc|repeat|while)(?=\\s)': 'foldingStopMarker'
 patterns: [
   {
-    'begin': '#'
+    'begin': '(#|;)'
     'beginCaptures':
       '0':
         'name': 'punctuation.definition.comment.praat'
