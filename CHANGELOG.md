@@ -1,8 +1,11 @@
 # Change log
 
-## [Unreleased]
+## [Unreleased] - 2017-01-23
 ### Added
-* support for `autoindent`
+* support for `auto-indent` and `toggle-line-comments`
+
+## Changed
+* fix procedure parameter highlight
 
 ## [1.3.5] - 2017-01-22
 ### Changed
@@ -48,6 +51,7 @@
 * Every bug fixed
 
 [Unreleased]: https://github.com/stefanocoretta/language-praat/compare/v1.3.5...HEAD
+[1.3.6]: https://github.com/stefanocoretta/language-praat/compare/v1.3.6...1.3.5
 [1.3.5]: https://github.com/stefanocoretta/language-praat/compare/v1.3.3...v1.3.5
 [1.3.3]: https://github.com/stefanocoretta/language-praat/compare/v1.3.2...v1.3.3
 [1.3.2]: https://github.com/stefanocoretta/language-praat/compare/v1.3.2...v1.3.1
