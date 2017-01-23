@@ -1,6 +1,6 @@
 # Change log
 
-## [Unreleased] - 2017-01-23
+## [1.3.6] - 2017-01-23
 ### Added
 * support for `auto-indent` and `toggle-line-comments`
 
@@ -50,7 +50,7 @@
 * Every feature added
 * Every bug fixed
 
-[Unreleased]: https://github.com/stefanocoretta/language-praat/compare/v1.3.5...HEAD
+[Unreleased]: https://github.com/stefanocoretta/language-praat/compare/v1.3.6...HEAD
 [1.3.6]: https://github.com/stefanocoretta/language-praat/compare/v1.3.6...1.3.5
 [1.3.5]: https://github.com/stefanocoretta/language-praat/compare/v1.3.3...v1.3.5
 [1.3.3]: https://github.com/stefanocoretta/language-praat/compare/v1.3.2...v1.3.3
