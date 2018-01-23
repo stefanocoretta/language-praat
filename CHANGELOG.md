@@ -1,5 +1,9 @@
 # Change log
 
+## Unreleased - 2018-01-23
+### Added
+* support for `language-markdown` package scope (`text.md`)
+
 ## [1.3.6] - 2017-01-23
 ### Added
 * support for `auto-indent` and `toggle-line-comments`
