@@ -13,7 +13,7 @@ undefined: 'foldingStartMarker'
 '^\\s*(editor|for|if|form|procedure|proc|repeat|while)(?=\\s)': 'foldingStopMarker'
 patterns: [
   {
-    'begin': '^\\s*([`~]{3,})\\s*(?i:(praat))\\s*$'
+    'begin': '^\\s*([`~]{3,})\\s*(?i:(praat))\\s*'
     'beginCaptures':
       '0':
         'name': 'support.gfm'
