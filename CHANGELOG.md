@@ -1,5 +1,9 @@
 # Change log
 
+## [1.3.9] - 2018-10-11
+### Fixed
+* add support for latest `lmt`
+
 ## [1.3.8] - 2018-01-23
 ### Fixed
 * fix remote helper not found when publishing
@@ -58,7 +62,8 @@
 * Every feature added
 * Every bug fixed
 
-[1.3.7]: https://github.com/stefanocoretta/language-praat/compare/v1.3.8...1.3.7
+[1.3.9]: https://github.com/stefanocoretta/language-praat/compare/v1.3.9...1.3.8
+[1.3.8]: https://github.com/stefanocoretta/language-praat/compare/v1.3.8...1.3.7
 [1.3.7]: https://github.com/stefanocoretta/language-praat/compare/v1.3.7...1.3.6
 [1.3.6]: https://github.com/stefanocoretta/language-praat/compare/v1.3.6...1.3.5
 [1.3.5]: https://github.com/stefanocoretta/language-praat/compare/v1.3.3...v1.3.5
