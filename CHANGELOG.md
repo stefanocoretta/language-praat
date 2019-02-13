@@ -1,5 +1,9 @@
 # Change log
 
+## [1.4.0] - 2019-02-13
+### Fixed
+* highlighting behaviour of hash comment symbol (PR by Matt Baxter)
+
 ## [1.3.9] - 2018-10-11
 ### Fixed
 * add support for latest `lmt`
