@@ -66,6 +66,7 @@
 * Every feature added
 * Every bug fixed
 
+[1.4.0]: https://github.com/stefanocoretta/language-praat/compare/v1.4.0...1.3.9
 [1.3.9]: https://github.com/stefanocoretta/language-praat/compare/v1.3.9...1.3.8
 [1.3.8]: https://github.com/stefanocoretta/language-praat/compare/v1.3.8...1.3.7
 [1.3.7]: https://github.com/stefanocoretta/language-praat/compare/v1.3.7...1.3.6
