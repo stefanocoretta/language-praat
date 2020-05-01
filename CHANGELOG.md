@@ -1,5 +1,9 @@
 # Change log
 
+## [1.5.0] - 2020-05-01
+### Changed
+* comment symbol is now `#` as per Praat documentation
+
 ## [1.4.0] - 2019-02-13
 ### Fixed
 * highlighting behaviour of hash comment symbol (PR by Matt Baxter)
@@ -66,6 +70,7 @@
 * Every feature added
 * Every bug fixed
 
+[1.5.0]: https://github.com/stefanocoretta/language-praat/compare/v1.4.0...1.4.0
 [1.4.0]: https://github.com/stefanocoretta/language-praat/compare/v1.4.0...1.3.9
 [1.3.9]: https://github.com/stefanocoretta/language-praat/compare/v1.3.9...1.3.8
 [1.3.8]: https://github.com/stefanocoretta/language-praat/compare/v1.3.8...1.3.7
