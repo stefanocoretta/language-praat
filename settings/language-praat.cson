@@ -1,6 +1,6 @@
 '.source.praat':
   'editor':
     'autoIndentOnPaste': true
-    'commentStart': '; '
+    'commentStart': '# '
     'increaseIndentPattern': '^\\s*(procedure|if|else|elsif|for|while|repeat|form|editor)'
     'decreaseIndentPattern': '^\\s*(endproc|endif|endfor|endwhile|until|endform|endeditor)'
